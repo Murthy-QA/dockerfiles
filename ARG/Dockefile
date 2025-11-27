@@ -3,5 +3,5 @@ FROM almalinux:${VERSION:-9}
 ARG COURSE="DOCKER" \
     TRAINER="SIVA" \
     DURATION="10HRS"
-RUN echo "Trainer is: ${TRAINER}}, Course is: ${COURSE}, Duration is: ${DURATION}"
+RUN echo "Trainer is: ${TRAINER}, Course is: ${COURSE}, Duration is: ${DURATION}"
 CMD ["sleep","100"]
